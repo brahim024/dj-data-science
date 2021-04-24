@@ -4,9 +4,9 @@ from binance.client import Client
 import pandas as pd 
 import numpy as np 
 
-api_key ='9Fizq5IgCgf4CAgaYdaiht03Nue8nck7g7T2WsjBenzEwWubGbMxGXq3BB4NcsZJ'
+api_key ='your api key'
 
-api_secret ='wWS7Dr26mTevNzTGIRe9ETMJFhsC3zkF9U0WggyFWaRNpcVLA9ygRFMKl1G6fWzk'
+api_secret ='your api secret'
 
 client = Client(api_key, api_secret) 
 tickers = ['BTCUSDT','XRPUSDT','MTLUSDT']
